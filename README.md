@@ -11,4 +11,7 @@ Everyone will look at 150 statements from the fuzzy beliefs dataset and verify t
 # Create Environment
 Test that environment works by running `imdb_test.ipynb`
 
+# Sentihood Test
+https://github.com/yhcc/BARTABSA
+
 `conda env create --name transformers --file=transformers-env.yml`
