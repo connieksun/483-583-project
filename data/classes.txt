@@ -1,0 +1,4 @@
+neither
+negative
+positive
+both
