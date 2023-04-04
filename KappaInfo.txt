@@ -1,0 +1,5 @@
+Kappa (?) Info:
+
+Total examples: 363
+Disagreements/Label Changes: 24
+Agreement on Labels: 339
