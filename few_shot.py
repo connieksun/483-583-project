@@ -5,11 +5,8 @@ import pandas as pd
 use_gpu = True
 
 # select device
-if torch.cuda.is_available():
-    device = torch.cuda.current_device()
-else:
-    device =  -1
-print("device", device)
+device = torch.device('cuda' if use_gpu and torch.cuda.is_available() else 'cpu')
+print(f'device: {device.type}')
 
 
 # In[ ]:
@@ -23,8 +20,8 @@ dataset = load_from_disk("data/belief_dataset/")
 
 
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
-nli_model = AutoModelForSequenceClassification.from_pretrained('facebook/bart-large-mnli')
-tokenizer = AutoTokenizer.from_pretrained('facebook/bart-large-mnli')
+nli_model = AutoModelForSequenceClassification.from_pretrained('typeform/distilbert-base-uncased-mnli')
+tokenizer = AutoTokenizer.from_pretrained('typeform/distilbert-base-uncased-mnli')
 
 
 # In[ ]:
@@ -69,13 +66,15 @@ def compute_metrics(eval_pred):
 
 
 from transformers import TrainingArguments, Trainer
-batch_size = 4
+batch_size = 6
 num_epochs = 2
+weight_decay = .01
 training_args = TrainingArguments(output_dir="test_trainer",
                                   evaluation_strategy="epoch",
                                   num_train_epochs=num_epochs,
                                   per_device_train_batch_size=batch_size,
-                                  per_device_eval_batch_size=batch_size)
+                                  per_device_eval_batch_size=batch_size,
+                                  weight_decay=weight_decay)
 
 trainer = Trainer(
     model=nli_model,
@@ -88,7 +87,8 @@ trainer = Trainer(
 
 # In[ ]:
 
-
+print("\nfew shot training")
+torch.cuda.empty_cache()
 trainer.train()
 print("\nfinish training")
 
