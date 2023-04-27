@@ -287,8 +287,22 @@ holdout_df = df = pd.read_csv("data/belief_benchmark_holdout.csv")
 holdout_ds = Dataset.from_pandas(holdout_df)
 holdout_ds = holdout_ds.map(tokenize, batched=True)
 
-trainer.predict(holdout_ds)
+preds = trainer.predict(holdout_ds)
 
+final_preds = [np.argmax(x) for x in preds.predictions]
+real_f1 = metrics.f1_score(final_preds, holdout_df["label"], average="macro")
+print("F-1: ", real_f1)
+y_pred = []
+for i, item in enumerate(final_preds):
+    y_pred.append(item)
+
+y_true = holdout_ds["label"]
+
+print(f"y_true: {y_true}")
+print(f"y_pred: {y_pred}")
+import pickle
+pickle.dump(y_pred, open(f"few_shot_results/y_pred_{int(train_size*100)}", "wb"))
+pickle.dump(y_true, open(f"few_shot_results/y_true_{int(train_size*100)}", "wb"))
 
 # In[20]:
 
