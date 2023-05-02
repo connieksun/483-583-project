@@ -12,16 +12,20 @@ print(f'device: {device.type}')
 # In[ ]:
 
 
-from datasets import load_from_disk
-dataset = load_from_disk("data/belief_dataset/")
+import pandas as pd
+labels = open('data/classes.txt').read().splitlines()
+all_df = pd.read_csv("data/belief_benchmark.csv")
+from datasets import Dataset
+
+dataset = Dataset.from_pandas(all_df)
 
 
 # In[ ]:
 
 
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
-nli_model = AutoModelForSequenceClassification.from_pretrained('typeform/distilbert-base-uncased-mnli')
-tokenizer = AutoTokenizer.from_pretrained('typeform/distilbert-base-uncased-mnli')
+nli_model = AutoModelForSequenceClassification.from_pretrained('bert-base-cased')
+tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
 
 
 # In[ ]:
@@ -99,8 +103,7 @@ print("\nzero shot classification pipeline")
 from transformers import pipeline
 classifier = pipeline("zero-shot-classification",
                       model=trainer.model, 
-                      tokenizer=tokenizer,
-                      device=device)
+                      tokenizer=tokenizer)
 
 
 # In[ ]:

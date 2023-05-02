@@ -1,0 +1,661 @@
+FOLD: 0
+LEN DF: 290
+done train df
+done eval df
+LEN EVAL: 73
+FOLD: 0
+LEN DF: 290
+done train df
+done eval df
+LEN EVAL: 73
+FOLD: 0
+LEN DF: 290
+done train df
+done eval df
+LEN EVAL: 73
+F-1: 0.5675118323191346
+n of fasle pos: 7
+n of false neg: 21
+FOLD: 1
+LEN DF: 290
+done train df
+done eval df
+LEN EVAL: 73
+F-1: 0.5412353347135956
+n of fasle pos: 10
+n of false neg: 21
+FOLD: 2
+LEN DF: 290
+done train df
+done eval df
+LEN EVAL: 73
+F-1: 0.6743037664090296
+n of fasle pos: 5
+n of false neg: 16
+FOLD: 3
+LEN DF: 291
+done train df
+done eval df
+LEN EVAL: 72
+F-1: 0.30969030969030964
+n of fasle pos: 12
+n of false neg: 20
+FOLD: 4
+LEN DF: 291
+done train df
+done eval df
+LEN EVAL: 72
+F-1: 0.6840208601898512
+n of fasle pos: 9
+n of false neg: 10
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 144
+done train df
+done eval df
+LEN EVAL: 37
+F-1: 0.515530303030303
+n of fasle pos: 4
+n of false neg: 12
+FOLD: 1
+LEN DF: 145
+done train df
+done eval df
+LEN EVAL: 36
+F-1: 0.6145658263305321
+n of fasle pos: 1
+n of false neg: 11
+FOLD: 2
+LEN DF: 145
+done train df
+done eval df
+LEN EVAL: 36
+F-1: 0.4278255528255528
+n of fasle pos: 9
+n of false neg: 5
+FOLD: 3
+LEN DF: 145
+done train df
+done eval df
+LEN EVAL: 36
+F-1: 0.4819376026272578
+n of fasle pos: 6
+n of false neg: 7
+FOLD: 4
+LEN DF: 145
+done train df
+done eval df
+LEN EVAL: 36
+F-1: 0.4575187969924812
+n of fasle pos: 1
+n of false neg: 13
+FOLD: 0
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.2578947368421053
+FOLD: 1
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.488095238095238
+FOLD: 2
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.3972719522591645
+FOLD: 3
+LEN DF: 139
+done train df
+done eval df
+LEN EVAL: 34
+F-1: 0.4232155232155232
+FOLD: 4
+LEN DF: 139
+done train df
+done eval df
+LEN EVAL: 34
+F-1: 0.4764705882352941
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 86
+done train df
+done eval df
+LEN EVAL: 22
+F-1: 0.25649350649350644
+FOLD: 1
+LEN DF: 86
+done train df
+done eval df
+LEN EVAL: 22
+F-1: 0.5
+FOLD: 2
+LEN DF: 86
+done train df
+done eval df
+LEN EVAL: 22
+F-1: 0.5050420168067227
+FOLD: 3
+LEN DF: 87
+done train df
+done eval df
+LEN EVAL: 21
+F-1: 0.4
+FOLD: 4
+LEN DF: 87
+done train df
+done eval df
+LEN EVAL: 21
+F-1: 0.44705882352941184
+FOLD: 0
+LEN DF: 120
+done train df
+done eval df
+LEN EVAL: 31
+F-1: 0.4680495356037152
+FOLD: 1
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.27683178534571723
+FOLD: 2
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.5452573742047426
+FOLD: 3
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.3928571428571429
+FOLD: 4
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.39994682736618214
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.4523809523809524
+FOLD: 1
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.3988095238095239
+FOLD: 2
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.3253968253968254
+FOLD: 3
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.4666666666666666
+FOLD: 4
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.25824175824175827
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 86
+done train df
+done eval df
+LEN EVAL: 22
+F-1: 0.28125
+FOLD: 1
+LEN DF: 86
+done train df
+done eval df
+LEN EVAL: 22
+F-1: 0.4431818181818182
+FOLD: 2
+LEN DF: 86
+done train df
+done eval df
+LEN EVAL: 22
+F-1: 0.24705882352941178
+FOLD: 3
+LEN DF: 87
+done train df
+done eval df
+LEN EVAL: 21
+F-1: 0.30952380952380953
+FOLD: 4
+LEN DF: 87
+done train df
+done eval df
+LEN EVAL: 21
+F-1: 0.3303571428571429
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 156
+done train df
+done eval df
+LEN EVAL: 39
+F-1: 0.4911158971597792
+FOLD: 1
+LEN DF: 156
+done train df
+done eval df
+LEN EVAL: 39
+F-1: 0.6463337831758884
+FOLD: 2
+LEN DF: 156
+done train df
+done eval df
+LEN EVAL: 39
+F-1: 0.5124305555555556
+FOLD: 3
+LEN DF: 156
+done train df
+done eval df
+LEN EVAL: 39
+F-1: 0.4222222222222223
+FOLD: 4
+LEN DF: 156
+done train df
+done eval df
+LEN EVAL: 39
+F-1: 0.5780780780780781
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 173
+done train df
+done eval df
+LEN EVAL: 44
+F-1: 0.40737874097007226
+FOLD: 1
+LEN DF: 173
+done train df
+done eval df
+LEN EVAL: 44
+F-1: 0.43509984639016897
+FOLD: 2
+LEN DF: 174
+done train df
+done eval df
+LEN EVAL: 43
+F-1: 0.4886217948717948
+FOLD: 3
+LEN DF: 174
+done train df
+done eval df
+LEN EVAL: 43
+F-1: 0.5788727401630627
+FOLD: 4
+LEN DF: 174
+done train df
+done eval df
+LEN EVAL: 43
+F-1: 0.5480769230769231
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.41269841269841273
+FOLD: 1
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.3988095238095239
+FOLD: 2
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.3253968253968254
+FOLD: 3
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.4666666666666666
+FOLD: 4
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.25824175824175827
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.4677634155895025
+FOLD: 1
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.488095238095238
+FOLD: 2
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.3972719522591645
+FOLD: 3
+LEN DF: 139
+done train df
+done eval df
+LEN EVAL: 34
+F-1: 0.4232155232155232
+FOLD: 4
+LEN DF: 139
+done train df
+done eval df
+LEN EVAL: 34
+F-1: 0.4764705882352941
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 173
+done train df
+done eval df
+LEN EVAL: 44
+F-1: 0.42595238095238097
+FOLD: 1
+LEN DF: 173
+done train df
+done eval df
+LEN EVAL: 44
+F-1: 0.43509984639016897
+FOLD: 2
+LEN DF: 174
+done train df
+done eval df
+LEN EVAL: 43
+F-1: 0.4886217948717948
+FOLD: 3
+LEN DF: 174
+done train df
+done eval df
+LEN EVAL: 43
+F-1: 0.5788727401630627
+FOLD: 4
+LEN DF: 174
+done train df
+done eval df
+LEN EVAL: 43
+F-1: 0.5480769230769231
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 156
+done train df
+done eval df
+LEN EVAL: 39
+F-1: 0.5387566137566138
+FOLD: 1
+LEN DF: 156
+done train df
+done eval df
+LEN EVAL: 39
+F-1: 0.6463337831758884
+FOLD: 2
+LEN DF: 156
+done train df
+done eval df
+LEN EVAL: 39
+F-1: 0.5124305555555556
+FOLD: 3
+LEN DF: 156
+done train df
+done eval df
+LEN EVAL: 39
+F-1: 0.4222222222222223
+FOLD: 4
+LEN DF: 156
+done train df
+done eval df
+LEN EVAL: 39
+F-1: 0.5780780780780781
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 120
+done train df
+done eval df
+LEN EVAL: 31
+F-1: 0.427170868347339
+FOLD: 1
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.27683178534571723
+FOLD: 2
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.5452573742047426
+FOLD: 3
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.3928571428571429
+FOLD: 4
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.39994682736618214
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 86
+done train df
+done eval df
+LEN EVAL: 22
+F-1: 0.30113636363636365
+FOLD: 1
+LEN DF: 86
+done train df
+done eval df
+LEN EVAL: 22
+F-1: 0.4431818181818182
+FOLD: 2
+LEN DF: 86
+done train df
+done eval df
+LEN EVAL: 22
+F-1: 0.24705882352941178
+FOLD: 3
+LEN DF: 87
+done train df
+done eval df
+LEN EVAL: 21
+F-1: 0.30952380952380953
+FOLD: 4
+LEN DF: 87
+done train df
+done eval df
+LEN EVAL: 21
+F-1: 0.3303571428571429
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.38888888888888884
+FOLD: 1
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.3988095238095239
+FOLD: 2
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.3253968253968254
+FOLD: 3
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.4666666666666666
+FOLD: 4
+LEN DF: 52
+done train df
+done eval df
+LEN EVAL: 13
+F-1: 0.25824175824175827
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 16
+done train df
+done eval df
+LEN EVAL: 5
+F-1: 0.2222222222222222
+FOLD: 1
+LEN DF: 17
+done train df
+done eval df
+LEN EVAL: 4
+F-1: 0.16666666666666666
+FOLD: 2
+LEN DF: 17
+done train df
+done eval df
+LEN EVAL: 4
+F-1: 0.42857142857142855
+FOLD: 3
+LEN DF: 17
+done train df
+done eval df
+LEN EVAL: 4
+F-1: 0.3333333333333333
+FOLD: 4
+LEN DF: 17
+done train df
+done eval df
+LEN EVAL: 4
+F-1: 0.6
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 34
+done train df
+done eval df
+LEN EVAL: 9
+F-1: 0.13636363636363635
+FOLD: 1
+LEN DF: 34
+done train df
+done eval df
+LEN EVAL: 9
+F-1: 0.16666666666666666
+FOLD: 2
+LEN DF: 34
+done train df
+done eval df
+LEN EVAL: 9
+F-1: 0.2777777777777778
+FOLD: 3
+LEN DF: 35
+done train df
+done eval df
+LEN EVAL: 8
+F-1: 0.4444444444444444
+FOLD: 4
+LEN DF: 35
+done train df
+done eval df
+LEN EVAL: 8
+F-1: 0.16666666666666666
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 68
+done train df
+done eval df
+LEN EVAL: 18
+F-1: 0.4455128205128205
+FOLD: 1
+LEN DF: 69
+done train df
+done eval df
+LEN EVAL: 17
+F-1: 0.43846153846153846
+FOLD: 2
+LEN DF: 69
+done train df
+done eval df
+LEN EVAL: 17
+F-1: 0.25816993464052285
+FOLD: 3
+LEN DF: 69
+done train df
+done eval df
+LEN EVAL: 17
+F-1: 0.32887700534759357
+FOLD: 4
+LEN DF: 69
+done train df
+done eval df
+LEN EVAL: 17
+F-1: 0.33333333333333326
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 104
+done train df
+done eval df
+LEN EVAL: 26
+F-1: 0.5336538461538461
+FOLD: 1
+LEN DF: 104
+done train df
+done eval df
+LEN EVAL: 26
+F-1: 0.26666666666666666
+FOLD: 2
+LEN DF: 104
+done train df
+done eval df
+LEN EVAL: 26
+F-1: 0.4229166666666667
+FOLD: 3
+LEN DF: 104
+done train df
+done eval df
+LEN EVAL: 26
+F-1: 0.3007518796992481
+FOLD: 4
+LEN DF: 104
+done train df
+done eval df
+LEN EVAL: 26
+F-1: 0.4642857142857143
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 120
+done train df
+done eval df
+LEN EVAL: 31
+F-1: 0.47606837606837604
+FOLD: 1
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.27683178534571723
+FOLD: 2
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.5452573742047426
+FOLD: 3
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.3928571428571429
+FOLD: 4
+LEN DF: 121
+done train df
+done eval df
+LEN EVAL: 30
+F-1: 0.39994682736618214
+{torch.cuda.memory_summary(device=None, abbreviated=False)}
