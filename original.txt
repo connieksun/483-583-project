@@ -658,4 +658,64 @@ done train df
 done eval df
 LEN EVAL: 30
 F-1: 0.39994682736618214
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.6839275608375778
+FOLD: 1
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.488095238095238
+FOLD: 2
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.3972719522591645
+FOLD: 3
+LEN DF: 139
+done train df
+done eval df
+LEN EVAL: 34
+F-1: 0.4232155232155232
+FOLD: 4
+LEN DF: 139
+done train df
+done eval df
+LEN EVAL: 34
+F-1: 0.4764705882352941
+{torch.cuda.memory_summary(device=None, abbreviated=False)}FOLD: 0
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.6700802184673152
+FOLD: 1
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.488095238095238
+FOLD: 2
+LEN DF: 138
+done train df
+done eval df
+LEN EVAL: 35
+F-1: 0.3972719522591645
+FOLD: 3
+LEN DF: 139
+done train df
+done eval df
+LEN EVAL: 34
+F-1: 0.4232155232155232
+FOLD: 4
+LEN DF: 139
+done train df
+done eval df
+LEN EVAL: 34
+F-1: 0.4764705882352941
 {torch.cuda.memory_summary(device=None, abbreviated=False)}
