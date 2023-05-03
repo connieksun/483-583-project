@@ -21,6 +21,8 @@ Alternatively, run the python script version `sentiment_classifier_cv.py`. Takes
 
 Both scripts will output classification reports for each epoch of each fold, and a final classification report for performance on the holdout set. The true and predicted labels are pickled and saved to the `few_shot_results/` directory.
 
+*Note: Current scripts use the same seed for sampling data, so all results in `few_shot_results/` should be reproducible.
+
 # Included Files
 - `archived/*` -- Contains old scripts and results created throughout the course of this project that are no longer relevant to our main implementation and results.
 - `data/*` -- Contains raw data, processed data, and static training/holdout datasets.
