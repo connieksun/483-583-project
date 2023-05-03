@@ -1,4 +1,9 @@
-# 483-583-project: Sentiment Analysis for Belief Extraction
+# Sentiment Analysis for Belief Extraction
+Authors: Rohini Saran, Caroline Hyland, Luke Hankins, and Connie Sun
+
+CSC 483/583, Spring 2023, The University of Arizona
+
+# Overview
 Sentiment analysis with zero-shot and fine-tuned pre-trained large language models on Senegal River Valley dataset.
 
 This project uses the pre-trained BERT language model to predict whether statements have a sentiment that is positive, negative, both, or neither. We implemented both a zero-shot classification pipeline that takes no training data and a fine-tuning method that trains BERT for sequence classification on varying training dataset sizes. Other LMs can be evaluated with minimal modifications to the code.
